@@ -1,0 +1,115 @@
+body {
+	background: #EDEDED;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+header {
+	
+	display: inline-block; 
+	background: #EDEDED;
+	color:  #7D2C07;
+	height: 100px;
+	width: 70%; 
+	position: relative;
+	left: 170px;
+}
+
+.logo {
+	height: 50px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.logo-2 {
+	height: 65px;
+	position: absolute;
+	top: 20px;
+	left: 850px;
+}
+
+ul.menu {
+	position: absolute;
+	top: 25px;
+	left: 260px;
+}
+
+ul.menu li{
+	display: inline;
+	margin: 10px;
+}
+
+a{
+	color: #C8141A;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #160025;
+}
+
+a:active {
+	color: white;
+	background: #C8141A;
+}
+
+a:focus {
+	color: white;
+	background: #C8141A;
+}
+
+div.footer {
+	position: absolute;
+	background: #EDEDED;
+	color:  #7D2C07;
+	height: 100px;
+	width: 70%; 
+	left: 320px;
+
+}
+
+p.info {
+	color: #B8B8B8;
+}
+
+}
+
+span.info {
+	color: #C8141A;
+	font-size: 21px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: italic;
+	font-weight: 400;
+}
+
+#contactsMap {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	width: 500px;
+}
+
+#projectsFoto {
+	position: absolute;
+	right: 1px;
+	top: 30px;
+	width: 554px;
+}
+
+div.background {
+	background-image: url(../img/newsBg.jpg);
+	height: 700px;
+	width: 100%;
+}
+
+div.about {
+	position: absolute;
+	width: 70%;
+	left: 170px;
+}
+
+div.project-info {
+	font-size: 15px;
+	width: 35%;
